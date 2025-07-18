@@ -7,7 +7,7 @@ from playsound import playsound
 import time
 from email_utils import send_failure_email
 # پوشه تصاویر
-from FaceGate.storage import add_log
+from storage import add_log
 
 IMAGES_DIR = "saved_faces"
 os.makedirs(IMAGES_DIR, exist_ok=True)
